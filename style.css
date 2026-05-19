@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* general */
+body {
+  background-color: #ccf0ff;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
+  font-size: 10vw;
+  text-align: center;
+  transition: font-size 0.2s ease-in-out;
+}
+
+h1:hover {
+  font-size: 11vw;
+}
+
+h2 {
+  font-size: 5vw;
+  text-align: center;
+  transition: font-size 0.2s ease-in-out;
+}
+
+h2:hover {
+  font-size: 5.5vw;
+}
+
+h3 {
+  font-size: 3vw;
+  transition: font-size 0.2s ease-in-out;
+}
+
+.section-content {
+  color: #383838;
+  display: flex;
+  flex-direction: column;
+  gap: 4vw;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+}
+
+.section-container {
+  margin: 5vw;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 0 3vw 0 rgba(0, 0, 0, 0.5);
+}
+
+/* content specific */
+
+.personality-div {
+  background-color: #b7b6fb;
+}
+
+.personality-chart {
+  width: 30vw;
+  transition: width 0.2s ease-in-out;
+}
+
+.personality-chart:hover {
+  width: 35vw
+}
+
+.trip-div {
+  background-color: #b3d7ff;
+}
+
+.inspiration-div {
+  background-color: #47ff9d;
+}
+
+.hobbies-div {
+  background-color: #ffb3b3;
+}
